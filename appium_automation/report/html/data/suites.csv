@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 26 15:53:53 CST 2021","Tue Oct 26 15:53:53 CST 2021","282","Test","test_0001","Test_Authority","","","用例2：取消授权",""
+"passed","Tue Oct 26 15:53:51 CST 2021","Tue Oct 26 15:53:53 CST 2021","1694","Test","test_0001","Test_Authority","","","用例1：允许授权后取消授权","
+                这里是允许授权功能的测试用例
+                :return:
+                "

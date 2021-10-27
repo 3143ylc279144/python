@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "【权限授权】模块",
+    "children" : [ {
+      "name" : "允许授权",
+      "children" : [ {
+        "name" : "用例1：允许授权后取消授权",
+        "uid" : "d25720db6500fd37",
+        "parentUid" : "391be1281270118807cf29a671be4d50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635234831493,
+          "stop" : 1635234833187,
+          "duration" : 1694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例2：取消授权",
+        "uid" : "c72c78123f5609d7",
+        "parentUid" : "391be1281270118807cf29a671be4d50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635234833190,
+          "stop" : 1635234833472,
+          "duration" : 282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "391be1281270118807cf29a671be4d50"
+    } ],
+    "uid" : "f45a9ad864571f10136222978d200e02"
+  } ]
+}

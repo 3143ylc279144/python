@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test",
+    "children" : [ {
+      "name" : "test_0001",
+      "children" : [ {
+        "name" : "Test_Authority",
+        "children" : [ {
+          "name" : "用例1：允许授权后取消授权",
+          "uid" : "d25720db6500fd37",
+          "parentUid" : "c5f941e6892915fa0951fda78e1abfef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635234831493,
+            "stop" : 1635234833187,
+            "duration" : 1694
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "用例2：取消授权",
+          "uid" : "c72c78123f5609d7",
+          "parentUid" : "c5f941e6892915fa0951fda78e1abfef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635234833190,
+            "stop" : 1635234833472,
+            "duration" : 282
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c5f941e6892915fa0951fda78e1abfef"
+      } ],
+      "uid" : "c62c5b09a6723556b272379cefca9234"
+    } ],
+    "uid" : "0b78c9c59ea4f706402d505dad753d3e"
+  } ]
+}

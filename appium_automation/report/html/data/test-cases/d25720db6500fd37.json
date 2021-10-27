@@ -1,0 +1,152 @@
+{
+  "uid" : "d25720db6500fd37",
+  "name" : "用例1：允许授权后取消授权",
+  "fullName" : "Test.test_0001.Test_Authority#test_01",
+  "historyId" : "25ff92a7b18c911f41c55438f213f1f7",
+  "time" : {
+    "start" : 1635234831493,
+    "stop" : 1635234833187,
+    "duration" : 1694
+  },
+  "description" : "\n                这里是允许授权功能的测试用例\n                :return:\n                ",
+  "descriptionHtml" : "<pre><code>            这里是允许授权功能的测试用例\n            :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n                这里是允许授权功能的测试用例\n                :return:\n                ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第一步：点击允许授权",
+      "time" : {
+        "start" : 1635234831494,
+        "stop" : 1635234832053,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "487de8078547b9c3",
+        "name" : "允许",
+        "source" : "487de8078547b9c3.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "d55f18fb2cf7d009",
+        "name" : "点击成功",
+        "source" : "d55f18fb2cf7d009.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第二步：点击取消授权",
+      "time" : {
+        "start" : 1635234832053,
+        "stop" : 1635234832748,
+        "duration" : 695
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "836edada7b1efc15",
+        "name" : "取消",
+        "source" : "836edada7b1efc15.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "df2d97725665f014",
+        "name" : "点击失败",
+        "source" : "df2d97725665f014.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "305f748efcca447",
+      "name" : "测试截图结果",
+      "source" : "305f748efcca447.png",
+      "type" : "image/png",
+      "size" : 52666
+    }, {
+      "uid" : "b71d03f89dc76a31",
+      "name" : "log",
+      "source" : "b71d03f89dc76a31.txt",
+      "type" : "text/plain",
+      "size" : 3105
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "【权限授权】模块"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "允许授权"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test"
+  }, {
+    "name" : "suite",
+    "value" : "test_0001"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Authority"
+  }, {
+    "name" : "host",
+    "value" : "ylc.local"
+  }, {
+    "name" : "thread",
+    "value" : "4993-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test.test_0001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://www.baidu.com/",
+    "url" : "https://www.baidu.com/",
+    "type" : "test_case"
+  }, {
+    "name" : "https://www.baidu.com/",
+    "url" : "https://www.baidu.com/",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d25720db6500fd37.json",
+  "parameterValues" : [ ]
+}

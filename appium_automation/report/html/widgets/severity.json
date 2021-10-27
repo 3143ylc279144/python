@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d25720db6500fd37",
+  "name" : "用例1：允许授权后取消授权",
+  "time" : {
+    "start" : 1635234831493,
+    "stop" : 1635234833187,
+    "duration" : 1694
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c72c78123f5609d7",
+  "name" : "用例2：取消授权",
+  "time" : {
+    "start" : 1635234833190,
+    "stop" : 1635234833472,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]
