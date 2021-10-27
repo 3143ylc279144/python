@@ -10,9 +10,9 @@ def init_driver():
     # 设备号
     desired_caps['deviceName'] = '61359515231666'  # 设备id
     # 包名
-    desired_caps['appPackage'] = 'com.boe.note'  # 包名
+    desired_caps['appPackage'] = ''  # 包名
     # 启动名
-    desired_caps['appActivity'] = '.NotePermissionCheckActivity'  # 启动的activity
+    desired_caps['appActivity'] = ''  # 启动的activity
     desired_caps['automationName'] = 'Uiautomator2'
     # 允许输入中文
     # desired_caps['unicodeKeyboard'] = True
