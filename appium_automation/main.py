@@ -13,7 +13,7 @@ from Basic import Log
 # os.system("adb shell setprop net.dns1 192.168.1.1")
 
 # 判断测试结果数据所在目录是否存在日志，有则删除日志
-# file = 'allure-result'
+# file = 'result'
 # files = os.listdir(file)
 # for i in files:
 #     if i.endswith(".json"):
@@ -32,19 +32,10 @@ def invoke(md):
     return o
 
 if __name__ == '__main__':
-    # # 执行用例
-    # args = '--alluredir=result/'
-    # pytest.main(['-s','-v','/Users/yanglicong/pythonProject/appium_automation/testcase',args])
-    #
-    # #生成html allure generate 测试结果数据所在目录 -o 测试报告保存的目录 --clean
-    # os.system("allure generate result/ -o report/ --clean")
-    # # 默认浏览器打开测试报告
-    # os.system("allure open report")
-
     log = Log.MyLog()
     log.info("-----------------------------START: %s----------------------------------" % tm)
     shutil.rmtree(xml_report_path)
-    args = ['-s', '-v', '/Users/yanglicong/pythonProject/appium_automation/Test', '--alluredir', xml_report_path]
+    args = ['-s', '-v', '测试用例路径', '--alluredir', xml_report_path]
     pytest.main(args)
     cmd = 'allure generate %s -o %s --clean' % (xml_report_path, html_report_path)
     invoke(cmd)
